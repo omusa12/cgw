@@ -95,8 +95,8 @@ def main():
     scraper = CanadaGeneralScraper()
     
     # Login credentials
-    username = "johndimeck@canadageneral.ca"
-    password = "Nkc980f"
+    username = "username"
+    password = "password"
     
     # Perform login
     if not scraper.login(username, password):
